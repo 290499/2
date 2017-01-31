@@ -3,8 +3,8 @@ from time import sleep
 from random import randint
 
 def voting():
-	url = 'referral goes here' # PUT YOUR REFERRAL LINK HERE
-	email_prefix = 'tester{}'.format(randint(1,10)) # more unique email prefix
+	url = 'https://www.getfinal.com/?ref=x-B0Nct0' # PUT YOUR REFERRAL LINK HERE
+	email_prefix = 'theo.prorovner'.format(randint(1,10)) # more unique email prefix
 	for i in range(1,1000):
 		browser = webdriver.PhantomJS()
 		email = '{}+{}@gmail.com'.format(email_prefix, randint(500, 1000000))
